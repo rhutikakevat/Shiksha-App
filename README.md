@@ -13,7 +13,7 @@ A React-based web application for managing and exploring books. This app allows 
 ## Backend API
 
 The application connects to a backend API hosted at:
-`https://backend-books-data-vuwd.vercel.app/books`
+https://backend-book-api.vercel.app/books
 
 
 ## Components
