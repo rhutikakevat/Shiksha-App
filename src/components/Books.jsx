@@ -5,14 +5,14 @@ import { HiArchiveBoxXMark } from "react-icons/hi2";
 const Books = () =>{
     const [successMessage, setSuccessMessage] = useState("");
 
-    const {data,loading,error} = useFetch("https://backend-books-data-vuwd.vercel.app/books")
+    const {data,loading,error} = useFetch("https://backend-book-api.vercel.app/books")
     // const {data,loading,error} = useFetch("http://localHost:3000/books")
 
     // console.log(data);
 
     const handleOfDelete = async (bookId) =>{
         try{
-            const response = await fetch(`https://backend-books-data-vuwd.vercel.app/books/${bookId}`,{
+            const response = await fetch(`https://backend-book-api.vercel.app/books/${bookId}`,{
                 method: "DELETE"
             })
 

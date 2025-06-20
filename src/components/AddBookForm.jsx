@@ -27,7 +27,7 @@ const AddBookForm = () => {
         event.preventDefault();
 
         try{
-            const response = await fetch("https://backend-books-data-vuwd.vercel.app/books", {
+            const response = await fetch("https://backend-book-api.vercel.app/books", {
                 method:"POST",
                 headers:{"Content-Type":"application/json"},
                 body: JSON.stringify(formData),

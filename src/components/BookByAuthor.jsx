@@ -1,7 +1,7 @@
 import useFetch from "../useFetch";
 
 const BookByAuthor = ({author}) => {
-    const {data,loading,error} = useFetch(`https://backend-books-data-vuwd.vercel.app/books/author/${author}`)
+    const {data,loading,error} = useFetch(`https://backend-book-api.vercel.app/books/author/${author}`)
     
     // const {data,loading,error} = useFetch(`http://localHost:3000/books/author/${author}`)
     
