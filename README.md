@@ -1,6 +1,6 @@
 # Book Management Application
 
-    A React-based web application for managing and exploring books. This app allows users to view all books, search books by title or author, and add new books to the collection.
+A React-based web application for managing and exploring books. This app allows users to view all books, search books by title or author, and add new books to the collection.
 
 ## Features
 
