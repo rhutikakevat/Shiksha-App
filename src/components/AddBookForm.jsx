@@ -67,7 +67,7 @@ const AddBookForm = () => {
             <br />
 
             <label className="fs-4" style={{fontFamily:"-moz-initial"}}>Genre: </label><br/>
-            <input type="text" className="form-control" placeholder="Fiction, Self-help, Business, Autobiography, Mystery, Thriller, Non-Fiction, Fantasy, Romance" name="genre" value={formData.genre} onChange={handlerOfChange}/>
+            <input type="text" className="form-control" placeholder="Fiction, Self-help, Business, Autobiography, Mystery, Thriller, Non-Fiction, Romance" name="genre" value={formData.genre} onChange={handlerOfChange}/>
             <br />
 
             <label className="fs-4" style={{fontFamily:"-moz-initial"}}>Language: </label><br/>
